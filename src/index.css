@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	.active-link {
+		color: yellow;
+		border-bottom: 1px solid yellow;
+	}
+
+	.page-title {
+		color: #78350f;
+		font-weight: 700;
+		text-align: center;
+		font-size: 30px;
+	}
+
+	.info-center {
+		justify-content: space-between;
+	}
+
+	@media (max-width: 1650px) {
+		.info-center {
+			justify-content: center;
+		}
+	}
+}
